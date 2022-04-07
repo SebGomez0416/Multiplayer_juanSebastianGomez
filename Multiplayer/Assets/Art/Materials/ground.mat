@@ -116,7 +116,7 @@ Material:
     - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission1: {r: 2.56, g: 0, b: 0, a: 1}
     - _Emission2: {r: 0, g: 1.95, b: 2.52, a: 1}
-    - _EmissionColor: {r: 0.754717, g: 0.25716716, b: 0.03203986, a: 1}
+    - _EmissionColor: {r: 0.9339623, g: 0.45723748, b: 0, a: 1}
     - _FlowDirection: {r: 1, g: 0, b: 0, a: 0}
     - _FlowDirection1: {r: 0.05, g: 0, b: 0, a: 1}
     - _FlowDirection2: {r: 0, g: 0.05, b: 0, a: 1}

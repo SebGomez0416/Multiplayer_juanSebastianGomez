@@ -489,6 +489,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4301495225298160}
   - component: {fileID: -8163716338200206131}
+  - component: {fileID: 7026634848720088146}
+  - component: {fileID: -6981225473550044222}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Untagged
@@ -516,6 +518,7 @@ Transform:
   - {fileID: 4316586847213530}
   - {fileID: 4903265316117468}
   - {fileID: 963194228}
+  - {fileID: 5587394753449148122}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -537,6 +540,40 @@ MonoBehaviour:
   right: 97
   up: 119
   down: 115
+--- !u!114 &7026634848720088146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589203934501006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844aecc860480154da2c47ecff36f051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 770237902456665548, guid: a6ac7abdc00767b40975e07d2cc70e6e, type: 3}
+  spwanPoint: {fileID: 5587394753449148122}
+  shootforce: 2000
+  shootRate: 0.5
+  shootRateTime: 0
+  keyboard: 1
+--- !u!54 &-6981225473550044222
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589203934501006}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1816723078517016
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,3 +817,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8395619860030657913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5587394753449148122}
+  m_Layer: 0
+  m_Name: spwanPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5587394753449148122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395619860030657913}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 16.3, z: -7.9}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 4301495225298160}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
