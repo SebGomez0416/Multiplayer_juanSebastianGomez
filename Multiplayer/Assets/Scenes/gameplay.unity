@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 963194227, guid: 05d8adff78ace1446a04008d1d27ad10, type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1589203934501006, guid: 05d8adff78ace1446a04008d1d27ad10, type: 3}
       propertyPath: m_Name
       value: PlayerOne
@@ -376,6 +380,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 447603512, guid: 1865df0eea7f3be4392c2343e9c9785e, type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1801221803211242, guid: 1865df0eea7f3be4392c2343e9c9785e, type: 3}
       propertyPath: m_Name
       value: PlayerTwo

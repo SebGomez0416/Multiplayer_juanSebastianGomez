@@ -492,6 +492,7 @@ GameObject:
   - component: {fileID: 7026634848720088146}
   - component: {fileID: -6981225473550044222}
   - component: {fileID: -6982212088099671569}
+  - component: {fileID: 1622574817783694233}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Player
@@ -537,8 +538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 200
   rotateSpeed: 150
-  left: 100
-  right: 97
+  left: 97
+  right: 100
   up: 119
   down: 115
 --- !u!114 &7026634848720088146
@@ -573,7 +574,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 32
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &-6982212088099671569
 BoxCollider:
@@ -588,6 +589,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 105.1732, y: 40.397385, z: 130.45096}
   m_Center: {x: -1.1313915, y: 6.8581715, z: -4.52796}
+--- !u!114 &1622574817783694233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589203934501006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a67de6ecae36b24895d90b80df3f4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1816723078517016
 GameObject:
   m_ObjectHideFlags: 0

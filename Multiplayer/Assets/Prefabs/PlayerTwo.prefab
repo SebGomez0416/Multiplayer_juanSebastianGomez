@@ -492,9 +492,10 @@ GameObject:
   - component: {fileID: 2198258939331244913}
   - component: {fileID: 9113679646063143035}
   - component: {fileID: 7647008570585723993}
+  - component: {fileID: 75487321243960576}
   m_Layer: 0
   m_Name: PlayerTwo
-  m_TagString: Player
+  m_TagString: Player_Two
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844aecc860480154da2c47ecff36f051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: 770237902456665548, guid: a6ac7abdc00767b40975e07d2cc70e6e, type: 3}
+  _bullet: {fileID: 770237902456665548, guid: e372c83f060d85542a4f0c91eddc424a, type: 3}
   spwanPoint: {fileID: 6592185384814318172}
   shootforce: 2000
   shootRate: 0.5
@@ -571,7 +572,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &7647008570585723993
 BoxCollider:
@@ -586,6 +587,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 105.1732, y: 40.397385, z: 130.45096}
   m_Center: {x: -1.1313915, y: 6.8581715, z: -4.52796}
+--- !u!114 &75487321243960576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801221803211242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a67de6ecae36b24895d90b80df3f4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1972531401300522
 GameObject:
   m_ObjectHideFlags: 0
